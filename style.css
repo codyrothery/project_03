@@ -1,0 +1,33 @@
+/* GLOBAL VIEW */
+
+h1 {
+    color: pink;
+}
+
+
+
+/* TABLET VIEW */
+
+@media (max-width: 768px) {
+
+h1 {
+    color: blue;
+}   
+
+
+}
+
+
+/* MOBILE VIEW
+
+For the pursposes of following along with the chrome-based testing, the mobile viewport breaks at 500px
+
+*/
+
+@media (max-width: 500px) {
+
+    h1 {
+        color: black;
+
+    }
+}
