@@ -1,9 +1,32 @@
 /* GLOBAL VIEW */
 
-h1 {
-    color: pink;
+body {
+    margin: 0;
 }
 
+.container {
+    background-color: cyan;
+    color: rgb(133, 0, 22);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.col {
+    background-color: rgb(0, 97, 97);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
 
 
 /* TABLET VIEW */
@@ -13,6 +36,10 @@ h1 {
 h1 {
     color: blue;
 }   
+
+.col {
+    width: 45%
+}
 
 
 }
@@ -27,7 +54,11 @@ For the pursposes of following along with the chrome-based testing, the mobile v
 @media (max-width: 500px) {
 
     h1 {
-        color: black;
-
+        color: pink;
     }
+
+    .col {
+        width: 100%;
+    }
+
 }
