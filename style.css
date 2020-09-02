@@ -13,7 +13,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
+}
+
+.hide-desktop-only {
+    display: none;
 }
 
 .col {
@@ -41,6 +45,10 @@ h1 {
     width: 45%
 }
 
+.hide-desktop-only {
+    display: block;
+}
+
 
 }
 
@@ -59,6 +67,10 @@ For the pursposes of following along with the chrome-based testing, the mobile v
 
     .col {
         width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
     }
 
 }
