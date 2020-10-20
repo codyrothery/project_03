@@ -62,7 +62,7 @@ For the pursposes of following along with the chrome-based testing, the mobile v
 @media (max-width: 500px) {
 
     h1 {
-        color: pink;
+        color: green;
     }
 
     .col {
