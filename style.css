@@ -38,11 +38,11 @@ h1 {
 @media (max-width: 768px) {
 
 h1 {
-    color: blue;
+    color: red;
 }   
 
 .col {
-    width: 45%
+    width: 55%
 }
 
 .hide-desktop-only {
